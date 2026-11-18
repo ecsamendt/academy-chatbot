@@ -1,0 +1,72 @@
+# Hand-written entries for academy tools (spec: "Tools as content").
+# The coach recommends a tool when one of these matches the question.
+# TODO(team): replace the placeholder URLs and plan memberships, and refine the text.
+#
+# Fields:
+#   key            stable ID, never change it once live
+#   name           shown to members
+#   url            where the tool lives in the academy
+#   is_public      true = every logged-in member can use it
+#   membership_ids MemberPress membership IDs that include the tool (when not public)
+#   plan_label     plan name shown in upgrade prompts
+#   description    what it does and when to recommend it
+#   examples       questions it helps answer (improves matching)
+
+- key: budget-projection-calculator
+  name: Calculadora de Proyección de Presupuesto
+  url: https://academy.susociodenegocios.com/herramientas/calculadora-presupuesto/
+  is_public: true
+  membership_ids: []
+  plan_label: null
+  description: >
+    Calcula ingresos, gastos y flujo de caja proyectados para los próximos meses.
+    Recomiéndala cuando el miembro quiere saber si su negocio será rentable, cuánto
+    necesita vender para cubrir gastos, cómo planear un presupuesto o preparar números
+    para pedir un préstamo.
+  examples:
+    - ¿Cuánto tengo que vender al mes para cubrir mis gastos?
+    - ¿Cómo hago un presupuesto para mi negocio?
+    - Necesito proyecciones financieras para el banco.
+
+- key: sales-script-playbook
+  name: Playbook de Guiones de Venta
+  url: https://academy.susociodenegocios.com/herramientas/guiones-de-venta/
+  is_public: true
+  membership_ids: []
+  plan_label: null
+  description: >
+    Guiones listos para llamadas de venta, seguimiento y manejo de objeciones.
+    Recomiéndalo cuando el miembro pregunta qué decirle a un cliente, cómo cerrar
+    una venta, cómo responder a "está muy caro" o cómo dar seguimiento.
+  examples:
+    - ¿Qué le digo a un cliente que dice que está muy caro?
+    - ¿Cómo cierro una venta por teléfono?
+    - How do I follow up with a lead?
+
+- key: facebook-image-ad-generator
+  name: Generador de Anuncios de Imagen para Facebook
+  url: https://academy.susociodenegocios.com/herramientas/generador-anuncios/
+  is_public: true
+  membership_ids: []
+  plan_label: null
+  description: >
+    Crea textos e imágenes para anuncios de Facebook e Instagram. Recomiéndalo cuando
+    el miembro quiere conseguir clientes con anuncios, no sabe qué poner en un anuncio
+    o quiere probar varias versiones.
+  examples:
+    - ¿Cómo hago un anuncio en Facebook para mi negocio?
+    - ¿Qué texto pongo en mi anuncio de Instagram?
+
+- key: crm
+  name: CRM de Su Socio de Negocios
+  url: https://academy.susociodenegocios.com/herramientas/crm/
+  is_public: true
+  membership_ids: []
+  plan_label: null
+  description: >
+    Organiza clientes, prospectos y seguimientos en un solo lugar. Recomiéndalo cuando
+    el miembro pierde el control de sus clientes, olvida dar seguimiento o quiere
+    organizar su lista de prospectos.
+  examples:
+    - ¿Cómo organizo a mis clientes?
+    - Se me olvida dar seguimiento a los prospectos.
